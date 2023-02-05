@@ -244,7 +244,7 @@ const CartList = () => {
                           >
                             Agree to the terms of the
                             <Link
-                              to={"/oferta"}
+                              to={"/public-offer"}
                               className="text-decoration-none mx-1"
                             >
                               Public Offer

@@ -20,6 +20,7 @@ function Contact() {
               value="https://smartshop.smhost.uz/"
             />
             <input type="hidden" name="_subject" value="New Message !" />
+            <input type="hidden" name="_captcha" value="false" />
 
             <div className="col-md-4">
               <label htmlFor="validationServer01" className="form-label">

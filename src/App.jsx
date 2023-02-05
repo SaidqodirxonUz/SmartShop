@@ -16,7 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/oferta" element={<Oferta />} />
+        <Route path="/public-offer" element={<Oferta />} />
         <Route path="*" element={<Redirect />} />
       </Routes>
     </div>

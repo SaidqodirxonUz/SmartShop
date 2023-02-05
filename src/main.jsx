@@ -12,8 +12,8 @@ import store from "./store/index";
 // styles
 import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap";
+import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import "/node_modules/bootstrap/dist/js/bootstrap";
 
 axios.defaults.baseURL = "https://fakestoreapi.com";
 axios.defaults.headers.access_token = localStorage.getItem("token");
